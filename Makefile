@@ -21,10 +21,10 @@ source:
 	cms help
 
 requirements:
-	echo "cloudmesh-cmd5" > tmp.txt
-	echo "cloudmesh-sys" >> tmp.txt
-	echo "cloudmesh-inventory" >> tmp.txt
-	echo "cloudmesh-configuration" >> tmp.txt
+#	echo "cloudmesh-cmd5" > tmp.txt
+#	echo "cloudmesh-sys" >> tmp.txt
+#	echo "cloudmesh-inventory" >> tmp.txt
+#	echo "cloudmesh-configuration" >> tmp.txt
 	pip-compile setup.py
 	fgrep -v "# via" requirements.txt | fgrep -v "cloudmesh" >> tmp.txt
 	mv tmp.txt requirements.txt
