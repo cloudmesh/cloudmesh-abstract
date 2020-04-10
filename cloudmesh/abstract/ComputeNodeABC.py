@@ -1,6 +1,10 @@
 from abc import ABCMeta, abstractmethod
+
 from cloudmesh.configuration.Config import Config
 
+
+class ComputeProviderPlugin:
+    pass
 
 # noinspection PyUnusedLocal
 class ComputeNodeABC(metaclass=ABCMeta):
