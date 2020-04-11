@@ -9,11 +9,11 @@ class ComputeProviderPlugin:
 # noinspection PyUnusedLocal
 class ComputeNodeABC(metaclass=ABCMeta):
 
-    def __init__(self, cloud, path):
-        config = Config(config_path=path)["cloudmesh"]
-        self.cm = config["cloud"][cloud]["cm"]
-        self.default = config["cloud"][cloud]["default"]
-        self.credentials = config["cloud"][cloud]["credentials"]
+    def __init__(self, service=None):
+        config = Config()["cloudmesh"]
+        self.cm = config["cloud"][service]["cm"]
+        self.default = config["cloud"][service]["default"]
+        self.credentials = config["cloud"][service]["credentials"]
         self.group = config["default"]["group"]
         self.experiment = config["default"]["experiment"]
 
