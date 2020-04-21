@@ -15,7 +15,7 @@ install:
 	pip install -e .
 
 readme:
-	cms timer off
+	cms debug off
 	python ../cloudmesh-common/bin/readme.py cloudmesh-$(package) $(package)
 	-git commit -m "Upadte Readme" README.md README-source.md
 	-git push
