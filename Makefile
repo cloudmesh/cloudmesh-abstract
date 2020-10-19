@@ -14,12 +14,6 @@ all: install
 install:
 	pip install -e .
 
-readme:
-	cms debug off
-	python ../cloudmesh-common/bin/readme.py cloudmesh-$(package) $(package)
-	-git commit -m "Upadte Readme" README.md README-source.md
-	-git push
-
 source:
 	cd ../cloudmesh.cmd5; make source
 	$(call banner, "Install cloudmesh-{package}")
