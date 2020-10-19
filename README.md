@@ -1,6 +1,6 @@
 # Cloudmesh Abstract
 
-[![image](https://img.shields.io/pypi/v/cloudmesh-abstract.svg)](https://pypi.org/project/cloudmesh-abstract/)
+[![Version](https://img.shields.io/pypi/v/cloudmesh-abstract.svg)](https://pypi.org/project/cloudmesh-abstract/)
 [![Python](https://img.shields.io/pypi/pyversions/cloudmesh-abstract.svg)](https://pypi.python.org/pypi/cloudmesh-abstract)
 [![Format](https://img.shields.io/pypi/format/cloudmesh-abstract.svg)](https://pypi.python.org/pypi/cloudmesh-abstract)
 [![Status](https://img.shields.io/pypi/status/cloudmesh-abstract.svg)](https://pypi.python.org/pypi/cloudmesh-abstract)
