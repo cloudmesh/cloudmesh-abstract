@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/pypi/l/cloudmesh-abstract.svg)](https://pypi.python.org/pypi/cloudmesh-abstract/)
 
 <!-- 
-[![Travis](https://travis-ci.com/cloudmesh/cloudmesh-abstract.svg?branch=master)](https://travis-ci.com/cloudmesh/cloudmesh-abstract)
+[![Travis](https://travis-ci.com/cloudmesh/cloudmesh-abstract.svg?branch=main)](https://travis-ci.com/cloudmesh/cloudmesh-abstract)
 -->
 
 Cloudmesh abstract introduces some abstract classes which make the
