@@ -4,3 +4,4 @@
 #
 #    pip-compile setup.py
 #
+psutil==5.8.0
